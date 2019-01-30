@@ -1,18 +1,11 @@
-<form netlify name="comments-queue" action="/thanks">
-  <input name="path" type="hidden" value="{{ page.url }}">
+<form name="contact" netlify>
   <p>
-    <label for="name">Your name</label>
-    <input type="text" name="name" id="name">
+    <label>Name <input type="text" name="name" /></label>
   </p>
   <p>
-    <label for="email">Your email</label>
-    <input type="email" name="email" id="email">
+    <label>Email <input type="email" name="email" /></label>
   </p>
   <p>
-    <label for="comment">Your comment</label>
-    <textarea name="comment" id="comment"></textarea>
-  </p>
-  <p>
-    <button type="submit">Post your comment</button>
+    <button type="submit">Send</button>
   </p>
 </form>
