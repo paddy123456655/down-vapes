@@ -1,18 +1,25 @@
-<form netlify name="comments-queue" action="/thanks">
-  <input name="path" type="hidden" value="{{ page.url }}">
-  <p>
-    <label for="name">Your name</label>
-    <input type="text" name="name" id="name">
-  </p>
-  <p>
-    <label for="email">Your email</label>
-    <input type="email" name="email" id="email">
-  </p>
-  <p>
-    <label for="comment">Your comment</label>
-    <textarea name="comment" id="comment"></textarea>
-  </p>
-  <p>
-    <button type="submit">Post your comment</button>
-  </p>
-</form>
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Colorlib Contact Form</h3>
+    <h4>Contact us for custom quote</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+  </form>
+</div>
